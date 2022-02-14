@@ -1,0 +1,119 @@
+@font-face {font-family: "Mark Pro"; src: url("//db.onlinewebfonts.com/t/7200c6dd8ac604abe09f5159e53a40c0.eot"); src: url("//db.onlinewebfonts.com/t/7200c6dd8ac604abe09f5159e53a40c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7200c6dd8ac604abe09f5159e53a40c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7200c6dd8ac604abe09f5159e53a40c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/7200c6dd8ac604abe09f5159e53a40c0.ttf") 
+    format("truetype"), url("//db.onlinewebfonts.com/t/7200c6dd8ac604abe09f5159e53a40c0.svg#Mark Pro") format("svg"); }
+    @font-face {font-family: "MarkW01-Heavy"; src: url("//db.onlinewebfonts.com/t/49406bd70f319809254b2661e03dfb76.eot"); src: url("//db.onlinewebfonts.com/t/49406bd70f319809254b2661e03dfb76.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/49406bd70f319809254b2661e03dfb76.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/49406bd70f319809254b2661e03dfb76.woff") format("woff"), url("//db.onlinewebfonts.com/t/49406bd70f319809254b2661e03dfb76.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/49406bd70f319809254b2661e03dfb76.svg#MarkW01-Heavy") format("svg"); }
+body{
+    margin:0;
+    padding:0;
+    font-family:"Mark Pro";
+    background-color: #08162B;
+}
+.right
+{
+    width:50%;
+}
+.flex
+{
+    display:flex;
+}
+.left
+{
+    width:50%;
+    float:left;
+}
+a
+{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin: 5%;
+}
+.logo
+{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+li
+{
+    list-style: none;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    white-space: nowrap;
+    margin-top: 4%;
+}
+.buttonbuy
+{
+    border:none;
+    background-color: #F29494;
+    color:white;
+    border-radius:1px;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: -10%;
+}
+h1{
+    font-family: "MarkW01-Heavy";
+    font-size: 110px;
+    margin-top: 13%;
+    margin-left: 10%;
+    color:white;
+    
+}
+h2{
+    letter-spacing: 15px;
+    color:#EF9C9C;
+    margin-top:-7%;
+    margin-left: 10%;
+    font-weight: 100;
+}
+p{
+    color:#D8D8D8;
+    margin-left: 10%;
+}
+.satovi
+{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.watch1, .watch2
+{
+    width:50%;
+}
+
+.watch1 h1, .watch2 h1{
+    font-size: 40px;
+}
+
+.watch1 h2, .watch2 h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 25%;
+    color:#FFFFFF;
+    font-weight: 100;
+}
+.watch1 button, .watch2 button
+{
+    border:none;
+    border-radius: 10%;
+    background-color: #2B3544;
+}
+
+
+
+h3
+{
+    font-size:40px;
+    color:#FFFFFF;
+    font-family: "MarkW01-Heavy";
+    margin-top: 0%;
+}
+h4
+{
+    font-size: 20px;
+    font-weight: 70;
+    color:#FFFFFF;
+    margin-top:-10%;
+    margin-left: 10%;
+}
